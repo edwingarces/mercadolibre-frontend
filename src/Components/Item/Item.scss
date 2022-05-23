@@ -1,0 +1,23 @@
+@use '../../assets/scss/base';
+
+.Item {
+  text-decoration: none;
+  color: base.$dark;
+  align-items: center;
+  justify-content: center;
+  &__image {
+    width: 180px;
+    border-radius: 4px;
+    margin: 16px;
+  }
+  &__price {
+    margin-bottom: 32px;
+    font-size: 24px;
+    &-free-shipping {
+      margin-left: 5px;
+    }
+  }
+  &__title {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,14 @@
+@use '../../assets/scss/base';
+
+.NavBar {
+  background-color: base.$yellow;
+  height: 50px;
+  &__logo {
+    padding: 0 !important;
+    margin-top: 7px;
+  }
+  &__search {
+    padding: 0 !important;
+    margin-top: 7px;
+  }
+}

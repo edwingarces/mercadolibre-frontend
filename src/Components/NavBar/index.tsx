@@ -21,12 +21,12 @@ const NavBar = () => {
 
   return (
     <nav className="NavBar row">
-      <div className="NavBar__logo col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1">
+      <div className="NavBar__logo col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-2">
         <Link to="/">
           <img src={Logo} alt="Logo" />
         </Link>
       </div>
-      <div className="NavBar__search col-lg-9 col-md-9">
+      <div className="NavBar__search col-lg-9 col-md-9 col-sm-8 col-xs-8">
         <SearchBar
           value={search}
           onKeyPress={handlePress}

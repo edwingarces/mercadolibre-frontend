@@ -35,17 +35,17 @@ const ItemDescription = () => {
         ? (
           <>
             <div className="ItemDescription row">
-              <div className="col-md-7 col-md-offset-1">
+              <div className="col-lg-7 col-lg-offset-1 col-md-7 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                 <img className="ItemDescription__image" src={item.picture} alt="" />
               </div>
-              <div className="col-md-3">
+              <div className="col-lg-3 col-md-3 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                 <p className="ItemDescription__title">{item.title}</p>
                 <p className="ItemDescription__price">{formatCurrency(item.price.amount)}</p>
                 <button className="ItemDescription__button" type="button">Comprar</button>
               </div>
             </div>
             <div className="row">
-              <div className="col-md-7 col-md-offset-1">
+              <div className="col-lg-7 col-lg-offset-1 col-md-7 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                 <p className="ItemDescription__desc-title">Descripción del producto</p>
                 <p className="ItemDescription__description">{item.description}</p>
               </div>

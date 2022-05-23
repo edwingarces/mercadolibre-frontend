@@ -17,10 +17,10 @@ const Item = ({
 }: ItemProps) => (
   <div>
     <Link className="Item row" to={`/items/${id}`}>
-      <div className="col-md-2 col-md-offset-1">
+      <div className="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-4 col-xs-5">
         <img className="Item__image" src={image} alt="Item" />
       </div>
-      <div className="col-md-8">
+      <div className="col-ls-8 col-md-8 col-sm-6 col-xs-6">
         <p className="Item__price">
           {formatCurrency(price)}
           {freeShipping ? <span className="Item__price-free-shipping"><img src={Free} alt="FreeShipping" /></span> : null}
